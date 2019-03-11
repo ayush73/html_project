@@ -1,0 +1,89 @@
+body{
+   color:green;
+   font-family : verdana,arial,geneva,arial black;
+   font-weight:normal;
+   background-color: #FFCF79;
+   border-color:black;
+   border-width:2px;
+   border-style:solid;
+   font-size:25px;
+   
+}
+h1{
+ text-decoration : underline;
+ text-align:center;
+ font-size:150%;
+}
+h2{
+ text-decoration : underline;
+ text-align:center;
+ font-size:
+ 
+}
+h3{
+ text-decoration:underline;
+ text-align:center;
+ color:purple;
+
+}
+P.para1{
+  color:blue;
+  font-size : 25px;
+ text-align:center;
+  font-weight: bold;
+}
+P.para2{
+  color:purple;
+  font-size : 25px;
+  line-height:1.5em; 
+}
+P.para3{
+  color:purple;
+  font-size : 20px;
+  background-color:#e5e4d7;
+  padding:20px;
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+  background-image: ;
+}
+P.para4{
+  color:purple;
+  font-size : 20px; 
+  background-color:#e5e4d7;
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+  margin-top:2.5em;
+  margin-bottom:0;
+}
+P.para5{  
+ color:black;
+  font-size : 20px; 
+  background-color:#e5e4d7;
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+  margin-top:2.5em;
+  margin-bottom:0;
+}
+P.para6{
+    color:purple;
+  font-size : 20px; 
+  background-color:#e5e4d7;
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+  margin-top:2.5em;
+  margin-bottom:0;
+}
+  .imagec {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:silver;
+  border-width:2px;
+  border-style:solid;
+  border-color:black;
+  padding:3px;
+}

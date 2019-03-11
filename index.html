@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="stylesheet.css" >
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+<h1> Fish Website </h1>
+<p class="para1"> Welcome to the Fish web site. Everything you will know
+   about Fish in this website </p> 
+<img class="imagec" src="ayush3.jpg">
+<h2> this is an Eye-Catching pic of Bass Fish </h2>
+<p class="para2"> Fishes are called in latin:-<i>Pieces</i> </p>
+<p class="para3"> 
+Largemouth bass and smallmouth bass are the most popular game fish in North America.
+It is also very popular in South Africa where the largemouth bass is often found in lakes, rivers, creeks, and dams.
+When fishing, lures or live bait will work. Lures that mimic baitfish, worms, crayfish, frogs, and mice are all effective.
+</p>
+<p class="para4"> 
+ A fish is any member of a group of animals that consist of all gill-bearing aquatic craniate animals that lack limbs with digits.
+ They form a sister group to the tunicates, together forming the olfactores. Included in this definition are the living hagfish, lampreys, and cartilaginous and bony fish as well as various extinct related groups.
+ Tetrapods emerged within lobe-finned fishes, so cladistically they are fish as well. However, traditionally fish are rendered obsolete or paraphyletic by excluding the tetrapods (i.e., the amphibians, reptiles, birds and mammals which all descended from within the same ancestry). Because in this manner the term "fish" is defined negatively as a paraphyletic group, it is not considered a formal taxonomic grouping in systematic biology.
+ The traditional term pisces (also ichthyes) is considered a typological, but not a phylogenetic classification.
+</p>
+<div ng-app="">
+ 
+<p  class="para6">Input something in the input box:</p>
+<p class ="para6">Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+<h3>Hello {{name}}</h3>
+
+</div>
+
+<script type="text/javascript">
+function funky(){
+ alert("Hello you have clicked this button");
+}
+function ayush(){
+  document.write("       My name is Ayush Mishra,Creator Of This Webpage....!");
+}
+function change()
+{
+  var img=document.getelementByid("image");
+  img.src=twilight.jpg;
+}
+document.getelement("image").onclick=change;
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<p class="para5">this is the paragraph meant for j-query....please click the paragraph to erase it....!!!!</p>
+<p class="para5">it uses the advanced libraries of javascript</p>
+<p class="para5">bootstrap+angular js+jquery+deploying of website+command line+javascript+css+html that's all....!!!!!</p>
+<form>
+<input type="button" value="touch me" onclick="funky()">
+<input type="button" value="please click the button" onclick="ayush()">
+</form>
+
+
+</body>
+</html>
